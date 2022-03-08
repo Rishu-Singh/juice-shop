@@ -24,7 +24,6 @@ steps:
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
 
-- task: owaspzap@1
 
 - task: ArchiveFiles@2
   inputs:
